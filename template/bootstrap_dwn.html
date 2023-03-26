@@ -1,0 +1,127 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+
+    <style>
+        img
+        {
+            height: 300px;
+            width: 250px;
+            border-radius: 0px 20% 0px 20%;
+            box-shadow: 0px 0px 20px black;   
+        }
+        .one
+        {
+            background: rgb(9, 125, 40);
+            font-size: 50px;
+            border-radius: 20px 0px 20px 0px;
+        }
+        .two
+        {
+            background: rgb(0, 242, 255);
+            font-size: 50px;
+            border-radius: 20px 0px 20px 0px; 
+        }
+        .three
+        {
+            width: 200px ;
+        }
+
+
+        body
+        {
+          background-image:url('{% static 'images/puneet_sir.jpg' %}') ;
+			    background-repeat:no-repeat;
+		  	  background-size:cover;
+			    background-position:0px 0px ;
+			    background-attachment:fixed;
+
+        }
+    </style>
+
+</head>
+<body>
+    <center><h1 class="btn btn-success one">This is the bootstrap 4.6.6 version</h1></center>
+    <center><img src="{% static 'images/ntr1.jpeg' %}" alt="image not found"></center>
+<center>  
+
+    <div class="spinner-grow text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-secondary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-success" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-danger" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-warning" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-info" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-light" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+      <div class="spinner-grow text-dark" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+
+
+</center>
+
+
+    <center><span class="badge badge-success two ">NTR 30</span></center>
+    <center>
+    <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        <span class="sr-only">Loading...</span>
+      </button>
+      <button class="btn btn-primary" type="button" disabled>
+        <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+        Loading...
+      </button>
+    </center>
+
+    <div class="card margin" style="width: 18rem;">
+       <center> <img  src="{% static 'images/ntr.webp' %}" class="card-img-top three " alt="..."></center>
+        <div class="card-body">
+          <h5 class="card-title">NTR</h5>
+          <p class="card-text">NTR is the one of the gratest and finest actor in the tollywood</p>
+          <a href="https://en.wikipedia.org/wiki/RRR_(film)" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+<script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+<script src="{% static 'js/bootstrap.js' %}"></script>
+<script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+
+
+</html>
